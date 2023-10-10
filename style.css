@@ -1,0 +1,71 @@
+/*サイドの余白を削除*/
+body{
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+/*ヘッダー上メニュー*/
+.sub_menu{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(80, 230, 250, 0.322);
+}
+
+.sub_menu img{
+    margin-right: 20px;
+}
+
+.search_filter{
+    width: 70px;
+    height: 34px;
+    text-align: center;
+}
+
+.search_ber{
+    width: 300px;
+    min-width: 150px;
+    height: 34px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.search_margin{
+    flex: 1;
+}
+
+
+.separator_line {
+    background-color: rgba(80, 210, 230, 0.322);
+    height: 1px;
+    background:-moz-linear-gradient(to right, #289, #ddd);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.slide_image{
+    display: flex;
+    flex-direction: row;
+}
+
+.category ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    ;
+}
+
+.category li{
+    width: 200px;
+}
+
+/*footer*/
+.footer p{
+    margin-right: 30px;
+}
+
