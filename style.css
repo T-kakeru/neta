@@ -7,7 +7,16 @@ body *{
     box-sizing: border-box;
 }
 
+p {
+    font-size: 10px;
+}
+
 /*ヘッダー上メニュー*/
+header{
+    position: fixed;
+    top: 0;
+}
+
 .sub_menu{
     padding-top: 20px;
     padding-bottom: 5px;
@@ -15,7 +24,7 @@ body *{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgba(80, 230, 250, 0.322);
+    background-color: rgb(80, 230, 250);
 }
 
 .sub_menu img{
